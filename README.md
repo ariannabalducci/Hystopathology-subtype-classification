@@ -87,9 +87,9 @@ The architectures explored along the way: [`docs/EXPERIMENTS.md`](docs/EXPERIMEN
 </picture>
 
 Every stage earned its place. The move from whole slides to tiles is what unlocked
-the rest; adding UNI was the largest single gain of the challenge (+0.0161);
-cross-validating the mixing weight added another +0.0214; dihedral test-time
-augmentation on the ResNet branch closed with +0.0070.
+the rest; adding UNI gave +0.0161; cross-validating the mixing weight was the
+largest single gain of the challenge (+0.0214); dihedral test-time augmentation
+on the ResNet branch closed with +0.0070.
 
 The weight the search settles on says something about the two branches:
 
