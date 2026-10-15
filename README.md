@@ -1,6 +1,6 @@
 # Histopathology Molecular Subtype Classification
 
-[![CI](https://github.com/ariannabalducci/histopathology-subtype-classification/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ariannabalducci/histopathology-subtype-classification/actions/workflows/ci.yml)
+[![CI](https://github.com/ariannabalducci/Hystopathology-subtype-classification/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ariannabalducci/Hystopathology-subtype-classification/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -11,7 +11,8 @@ slide reveals — it has to be inferred from cellular morphology scattered acros
 very large image, from 627 training slides.
 
 Built for the second challenge of *Artificial Neural Networks and Deep Learning*
-(AN2DL), Politecnico di Milano, A.Y. 2025/26.
+(AN2DL), Politecnico di Milano, A.Y. 2025/26, as a team of four — see
+[Team and contributions](#team-and-contributions).
 
 | Task | Four-class molecular subtype classification of whole-slide images |
 |---|---|
@@ -200,6 +201,22 @@ submitted run.
 rests on, [`src/inference.py`](src/inference.py) for the pooling and the
 test-time augmentation, and [`src/ensemble.py`](src/ensemble.py) for the weight
 search.
+
+---
+
+## Team and contributions
+
+Team *Backprop Boys*. Contributions as stated in the submitted
+[report](report/AN2DL_2025_Challenge2_Report.pdf):
+
+| Member | Contribution |
+|---|---|
+| Alessandro Zanoni | ResNet baseline and ensemble coordination |
+| Jacopo Valentini | Tile extraction pipeline and MIL implementation |
+| **Arianna Balducci** | **UNI integration and cross-validation framework** |
+| Renato Gallicola | Preprocessing design and test-time augmentation |
+
+This repository was curated by Arianna Balducci after the challenge.
 
 ---
 
